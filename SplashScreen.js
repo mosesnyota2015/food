@@ -8,7 +8,7 @@ const SplashScreen = ({ navigation }) => {
       <StatusBar style="light" />
       <View style={styles.logoContainer}>
         <Image 
-          source={{ uri: 'https://i.imgur.com/TBiM9i5.png' }} 
+          source={{ uri: './assets/image.png' }} 
           style={styles.logo} 
           resizeMode="contain"
         />
